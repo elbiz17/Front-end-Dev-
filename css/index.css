@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+*{
+   margin:0;
+   padding:0;
+}
+
+body{
+   background: #F4F4F4 !important;
+}
+
+.navbar{
+   position: absolute;
+   /* width: 1440px; */
+   height: 105px;
+   left: 0px;
+   top: 0px;
+
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+.bg-custom{
+   background-color: #16ABF8 !important;
+}
+
+.navbar .title{
+   /* position: absolute; */
+   width: 229px;
+   height: 36px;
+   left: 220px;
+   top: 38px;
+   
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 36px;
+   /* identical to box height */
+   
+   text-transform: uppercase;
+   
+   color: #FFFFFF;
+
+
+}
+
+.container label{
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px !important;
+   line-height: 54px;
+   /* position: absolute; */
+   width: 145px;
+   height: 54px;
+   left: 220px;
+   top: 148px;
+}
+.container .Add_Menu{
+   width: 78px;
+   height: 27px;
+   display:flex;
+   background-color:#16abf8 !important;
+   color:white !important;
+   align-items:center;
+   justify-content:center;
+   color:white;
+   border-radius:30px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 27px;
+   /* position: absolute; */
+   width: 145px;
+   height: 54px;
+   right: 220px;
+   top: 148px;
+}
+.save{
+   background-color:#16abf8 !important;
+   border-radius:30px !important;
+   color:white !important;
+   width:100px;
+
+}
+
+
+.image{
+   padding:10px;
+
+}
+.img_avatar{
+   height:22em;
+   margin-left:200px;
+}
+
+
+.activity_button{
+   position: absolute;
+left: 51.36%;
+right: 9.61%;
+top: 9.74%;
+bottom: 47.62%;
+
+width:270px;
+height:200px;
+
+background: #F4F4F4;
+border-radius:20px;
+border:10px solid #E4E4E4;
+
+}
+
+
+.text_activity_button{
+   position:absolute;
+   right:260px !important;
+   bottom:70px !important;
+   font-size:25px !important;
+   font-weight:600;
+   color:#555555;
+}
+
+
+
+
+@media only screen and (max-width:768px){
+   .img_avatar{
+      height:15em;
+      width:8em;
+      margin:0 !important;
+      display:flex;
+      justify-content:start;
+      align-items:start !important;
+   }
+
+   .activity_button{
+      position: absolute;
+   left: 51.36%;
+   right: 9.61%;
+   top: 9.74%;
+   bottom: 47.62%;
+   
+   width:8em;
+   height:6em;
+   
+   background: #F4F4F4;
+   border-radius:20px;
+   border:2px solid #E4E4E4;
+   }
+   .activity_btn_click{
+      width:3em;
+   }
+   .text_activity_button{
+      position:absolute;
+      right:130px;
+      bottom:0 !important;
+      /* transform:translateY(-90%,10%) !important; */
+      font-size:15px !important;
+      font-weight:600;
+      color:#555555;
+   }
+
+}
+@media only screen and (max-width:902px){
+   
+   .img_avatar{
+      height:15em;
+      width:8em;
+      margin:0 !important;
+      display:flex;
+      justify-content:start;
+      align-items:start !important;
+   }
+
+   .activity_button{
+      position: absolute;
+   left: 51.36%;
+   right: 9.61%;
+   top: 9.74%;
+   bottom: 47.62%;
+   
+   width:10em;
+   height:6em;
+   
+   background: #F4F4F4;
+   border-radius:20px;
+   border:2px solid #E4E4E4;
+   }
+   .activity_btn_click{
+      width:3em;
+   }
+   .text_activity_button{
+      position:absolute;
+      right:100px !important;
+      bottom:0px !important;
+      /* transform:translateY(-90%,10%) !important; */
+      font-size:16px !important;
+      font-weight:600;
+      color:#555555;
+   }
+
+}
+
+.activity_button{
+   position: absolute;
+left: 51.36%;
+right: 9.61%;
+top: 9.74%;
+bottom: 47.62%;
+
+background: #F4F4F4;
+border-radius:20px;
+border:10px solid #E4E4E4;
+}
+
+.text_activity_button{
+   position:absolute;
+   right:90px;
+   bottom:150px;
+   font-size:40px;
+   font-weight:600;
+   color:#555555;
+}
+
+
+.card{
+   height:150px;
+   
+}
+
+.item_list{
+   height: 80px;
+width: 1000px;
+left: 220px;
+top: 256px;
+border-radius: 12px;
+
+}
+
+select{
+   height:40px;
+   width:130px !important;
+   padding-left:10px;
+   padding-right:10px;
+
+   border-radius:10px;
+}
