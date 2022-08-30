@@ -248,3 +248,10 @@ select{
 
    border-radius:10px;
 }
+
+.cards{
+   padding:0 !important;
+   background:white;
+   border-radius:20px;
+   box-shadow:1px 1px rgb(247, 247, 247);
+}
